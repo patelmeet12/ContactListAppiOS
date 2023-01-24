@@ -9,11 +9,24 @@
 /* Begin PBXBuildFile section */
 		157643EA297EF478006C5268 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157643E9297EF478006C5268 /* AppDelegate.swift */; };
 		157643EC297EF478006C5268 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157643EB297EF478006C5268 /* SceneDelegate.swift */; };
-		157643EE297EF478006C5268 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157643ED297EF478006C5268 /* ViewController.swift */; };
 		157643F1297EF478006C5268 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 157643EF297EF478006C5268 /* Main.storyboard */; };
 		157643F4297EF478006C5268 /* ContactListAppiOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 157643F2297EF478006C5268 /* ContactListAppiOS.xcdatamodeld */; };
 		157643F6297EF479006C5268 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 157643F5297EF479006C5268 /* Assets.xcassets */; };
 		157643F9297EF479006C5268 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 157643F7297EF479006C5268 /* LaunchScreen.storyboard */; };
+		1576440A297EF8F4006C5268 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15764409297EF8F4006C5268 /* CustomImageView.swift */; };
+		1576440D297EFA1C006C5268 /* ContactListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1576440C297EFA1C006C5268 /* ContactListVC.swift */; };
+		1576440F297EFB6C006C5268 /* ContactListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1576440E297EFB6C006C5268 /* ContactListTableViewCell.swift */; };
+		15764410297EFF3C006C5268 /* Vidaloka-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 15764407297EF654006C5268 /* Vidaloka-Regular.ttf */; };
+		15BD372429803F9300D0C08C /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BD372329803F9300D0C08C /* CustomView.swift */; };
+		15BD37262980426E00D0C08C /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BD37252980426E00D0C08C /* CustomButton.swift */; };
+		15BD37292980430E00D0C08C /* AddContactVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BD37282980430E00D0C08C /* AddContactVC.swift */; };
+		15BD372C29804A9C00D0C08C /* Viewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BD372B29804A9C00D0C08C /* Viewcontroller.swift */; };
+		15BD372F29804AFA00D0C08C /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BD372E29804AFA00D0C08C /* Constant.swift */; };
+		15BD373329804EDA00D0C08C /* CircleCropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BD373229804EDA00D0C08C /* CircleCropViewController.swift */; };
+		15BD373529804EFE00D0C08C /* CircleCropScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BD373429804EFE00D0C08C /* CircleCropScrollView.swift */; };
+		15BD373729804F3200D0C08C /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BD373629804F3200D0C08C /* UIImage+Extension.swift */; };
+		15BD373929804F4A00D0C08C /* CircleCropCutterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BD373829804F4A00D0C08C /* CircleCropCutterView.swift */; };
+		15BD373B298050BC00D0C08C /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BD373A298050BC00D0C08C /* CustomTextField.swift */; };
 		181744D22D6DE022038CB396 /* Pods_ContactListAppiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28ABB864DC0084A5B886D316 /* Pods_ContactListAppiOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -21,12 +34,25 @@
 		157643E6297EF478006C5268 /* ContactListAppiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactListAppiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		157643E9297EF478006C5268 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		157643EB297EF478006C5268 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		157643ED297EF478006C5268 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		157643F0297EF478006C5268 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		157643F3297EF478006C5268 /* ContactListAppiOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ContactListAppiOS.xcdatamodel; sourceTree = "<group>"; };
 		157643F5297EF479006C5268 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		157643F8297EF479006C5268 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		157643FA297EF479006C5268 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15764407297EF654006C5268 /* Vidaloka-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Vidaloka-Regular.ttf"; sourceTree = "<group>"; };
+		15764409297EF8F4006C5268 /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		1576440C297EFA1C006C5268 /* ContactListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Contact\U0010ListVC.swift"; sourceTree = "<group>"; };
+		1576440E297EFB6C006C5268 /* ContactListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListTableViewCell.swift; sourceTree = "<group>"; };
+		15BD372329803F9300D0C08C /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		15BD37252980426E00D0C08C /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		15BD37282980430E00D0C08C /* AddContactVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactVC.swift; sourceTree = "<group>"; };
+		15BD372B29804A9C00D0C08C /* Viewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viewcontroller.swift; sourceTree = "<group>"; };
+		15BD372E29804AFA00D0C08C /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		15BD373229804EDA00D0C08C /* CircleCropViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleCropViewController.swift; sourceTree = "<group>"; };
+		15BD373429804EFE00D0C08C /* CircleCropScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleCropScrollView.swift; sourceTree = "<group>"; };
+		15BD373629804F3200D0C08C /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		15BD373829804F4A00D0C08C /* CircleCropCutterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleCropCutterView.swift; sourceTree = "<group>"; };
+		15BD373A298050BC00D0C08C /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		28ABB864DC0084A5B886D316 /* Pods_ContactListAppiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ContactListAppiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DB6A101776DEA5882A525C1 /* Pods-ContactListAppiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactListAppiOS.debug.xcconfig"; path = "Target Support Files/Pods-ContactListAppiOS/Pods-ContactListAppiOS.debug.xcconfig"; sourceTree = "<group>"; };
 		AE6F7328E4176051D61AC4A0 /* Pods-ContactListAppiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactListAppiOS.release.xcconfig"; path = "Target Support Files/Pods-ContactListAppiOS/Pods-ContactListAppiOS.release.xcconfig"; sourceTree = "<group>"; };
@@ -58,7 +84,6 @@
 				8DB6A101776DEA5882A525C1 /* Pods-ContactListAppiOS.debug.xcconfig */,
 				AE6F7328E4176051D61AC4A0 /* Pods-ContactListAppiOS.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -83,16 +108,141 @@
 		157643E8297EF478006C5268 /* ContactListAppiOS */ = {
 			isa = PBXGroup;
 			children = (
-				157643E9297EF478006C5268 /* AppDelegate.swift */,
-				157643EB297EF478006C5268 /* SceneDelegate.swift */,
-				157643ED297EF478006C5268 /* ViewController.swift */,
-				157643EF297EF478006C5268 /* Main.storyboard */,
+				15764400297EF4F1006C5268 /* AppDelegates */,
+				15764403297EF5F9006C5268 /* iOSApp */,
 				157643F5297EF479006C5268 /* Assets.xcassets */,
 				157643F7297EF479006C5268 /* LaunchScreen.storyboard */,
 				157643FA297EF479006C5268 /* Info.plist */,
 				157643F2297EF478006C5268 /* ContactListAppiOS.xcdatamodeld */,
 			);
 			path = ContactListAppiOS;
+			sourceTree = "<group>";
+		};
+		15764400297EF4F1006C5268 /* AppDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				157643E9297EF478006C5268 /* AppDelegate.swift */,
+				157643EB297EF478006C5268 /* SceneDelegate.swift */,
+			);
+			path = AppDelegates;
+			sourceTree = "<group>";
+		};
+		15764401297EF4FE006C5268 /* ClassesAndModels */ = {
+			isa = PBXGroup;
+			children = (
+				15BD373029804EB900D0C08C /* Libraries */,
+				15BD372D29804AF200D0C08C /* Constant */,
+				15BD372A29804A6D00D0C08C /* Extensions */,
+				15764408297EF8E2006C5268 /* CustomClass */,
+			);
+			path = ClassesAndModels;
+			sourceTree = "<group>";
+		};
+		15764402297EF50A006C5268 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1576440B297EFA08006C5268 /* ContactList */,
+				15BD3727298042F700D0C08C /* AddContact */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		15764403297EF5F9006C5268 /* iOSApp */ = {
+			isa = PBXGroup;
+			children = (
+				157643EF297EF478006C5268 /* Main.storyboard */,
+				15764404297EF60F006C5268 /* Resources */,
+				15764401297EF4FE006C5268 /* ClassesAndModels */,
+				15764402297EF50A006C5268 /* ViewControllers */,
+			);
+			path = iOSApp;
+			sourceTree = "<group>";
+		};
+		15764404297EF60F006C5268 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				15764405297EF61B006C5268 /* Font */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		15764405297EF61B006C5268 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				15764406297EF62E006C5268 /* Vidaloka */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		15764406297EF62E006C5268 /* Vidaloka */ = {
+			isa = PBXGroup;
+			children = (
+				15764407297EF654006C5268 /* Vidaloka-Regular.ttf */,
+			);
+			path = Vidaloka;
+			sourceTree = "<group>";
+		};
+		15764408297EF8E2006C5268 /* CustomClass */ = {
+			isa = PBXGroup;
+			children = (
+				15764409297EF8F4006C5268 /* CustomImageView.swift */,
+				15BD372329803F9300D0C08C /* CustomView.swift */,
+				15BD37252980426E00D0C08C /* CustomButton.swift */,
+				15BD373A298050BC00D0C08C /* CustomTextField.swift */,
+			);
+			path = CustomClass;
+			sourceTree = "<group>";
+		};
+		1576440B297EFA08006C5268 /* ContactList */ = {
+			isa = PBXGroup;
+			children = (
+				1576440C297EFA1C006C5268 /* ContactListVC.swift */,
+				1576440E297EFB6C006C5268 /* ContactListTableViewCell.swift */,
+			);
+			path = ContactList;
+			sourceTree = "<group>";
+		};
+		15BD3727298042F700D0C08C /* AddContact */ = {
+			isa = PBXGroup;
+			children = (
+				15BD37282980430E00D0C08C /* AddContactVC.swift */,
+			);
+			path = AddContact;
+			sourceTree = "<group>";
+		};
+		15BD372A29804A6D00D0C08C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				15BD372B29804A9C00D0C08C /* Viewcontroller.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		15BD372D29804AF200D0C08C /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				15BD372E29804AFA00D0C08C /* Constant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		15BD373029804EB900D0C08C /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				15BD373129804ECC00D0C08C /* CircleCropImage */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		15BD373129804ECC00D0C08C /* CircleCropImage */ = {
+			isa = PBXGroup;
+			children = (
+				15BD373229804EDA00D0C08C /* CircleCropViewController.swift */,
+				15BD373429804EFE00D0C08C /* CircleCropScrollView.swift */,
+				15BD373629804F3200D0C08C /* UIImage+Extension.swift */,
+				15BD373829804F4A00D0C08C /* CircleCropCutterView.swift */,
+			);
+			path = CircleCropImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +306,7 @@
 			files = (
 				157643F9297EF479006C5268 /* LaunchScreen.storyboard in Resources */,
 				157643F6297EF479006C5268 /* Assets.xcassets in Resources */,
+				15764410297EFF3C006C5268 /* Vidaloka-Regular.ttf in Resources */,
 				157643F1297EF478006C5268 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -192,10 +343,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				157643EE297EF478006C5268 /* ViewController.swift in Sources */,
+				15BD372429803F9300D0C08C /* CustomView.swift in Sources */,
+				15BD373729804F3200D0C08C /* UIImage+Extension.swift in Sources */,
+				15BD37262980426E00D0C08C /* CustomButton.swift in Sources */,
+				15BD373329804EDA00D0C08C /* CircleCropViewController.swift in Sources */,
+				15BD373B298050BC00D0C08C /* CustomTextField.swift in Sources */,
+				15BD372C29804A9C00D0C08C /* Viewcontroller.swift in Sources */,
 				157643EA297EF478006C5268 /* AppDelegate.swift in Sources */,
 				157643F4297EF478006C5268 /* ContactListAppiOS.xcdatamodeld in Sources */,
 				157643EC297EF478006C5268 /* SceneDelegate.swift in Sources */,
+				15BD373529804EFE00D0C08C /* CircleCropScrollView.swift in Sources */,
+				1576440D297EFA1C006C5268 /* ContactListVC.swift in Sources */,
+				1576440A297EF8F4006C5268 /* CustomImageView.swift in Sources */,
+				15BD372F29804AFA00D0C08C /* Constant.swift in Sources */,
+				1576440F297EFB6C006C5268 /* ContactListTableViewCell.swift in Sources */,
+				15BD37292980430E00D0C08C /* AddContactVC.swift in Sources */,
+				15BD373929804F4A00D0C08C /* CircleCropCutterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +434,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -325,7 +488,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -349,8 +512,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -358,9 +522,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ContactListAppiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -378,8 +545,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -387,9 +555,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ContactListAppiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
