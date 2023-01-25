@@ -17,9 +17,15 @@
 		1576440D297EFA1C006C5268 /* ContactListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1576440C297EFA1C006C5268 /* ContactListVC.swift */; };
 		1576440F297EFB6C006C5268 /* ContactListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1576440E297EFB6C006C5268 /* ContactListTableViewCell.swift */; };
 		15764410297EFF3C006C5268 /* Vidaloka-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 15764407297EF654006C5268 /* Vidaloka-Regular.ttf */; };
+		15938AF129818CAD0004B8A5 /* ContactDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15938AF029818CAD0004B8A5 /* ContactDetailsVC.swift */; };
+		15938AF4298194360004B8A5 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15938AF3298194360004B8A5 /* CoreDataManager.swift */; };
+		15938AF72981945A0004B8A5 /* ContactManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15938AF62981945A0004B8A5 /* ContactManager.swift */; };
+		15938AFA29819D1B0004B8A5 /* CountryCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15938AF929819D1B0004B8A5 /* CountryCode.swift */; };
+		15938AFD2981AB300004B8A5 /* CountryCodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15938AFC2981AB300004B8A5 /* CountryCodeVC.swift */; };
+		15938AFF2981AD8C0004B8A5 /* CountryCodeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15938AFE2981AD8C0004B8A5 /* CountryCodeTableViewCell.swift */; };
 		15BD372429803F9300D0C08C /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BD372329803F9300D0C08C /* CustomView.swift */; };
 		15BD37262980426E00D0C08C /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BD37252980426E00D0C08C /* CustomButton.swift */; };
-		15BD37292980430E00D0C08C /* AddContactVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BD37282980430E00D0C08C /* AddContactVC.swift */; };
+		15BD37292980430E00D0C08C /* AddEditContactVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BD37282980430E00D0C08C /* AddEditContactVC.swift */; };
 		15BD372C29804A9C00D0C08C /* Viewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BD372B29804A9C00D0C08C /* Viewcontroller.swift */; };
 		15BD372F29804AFA00D0C08C /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BD372E29804AFA00D0C08C /* Constant.swift */; };
 		15BD373329804EDA00D0C08C /* CircleCropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BD373229804EDA00D0C08C /* CircleCropViewController.swift */; };
@@ -43,9 +49,15 @@
 		15764409297EF8F4006C5268 /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
 		1576440C297EFA1C006C5268 /* ContactListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Contact\U0010ListVC.swift"; sourceTree = "<group>"; };
 		1576440E297EFB6C006C5268 /* ContactListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListTableViewCell.swift; sourceTree = "<group>"; };
+		15938AF029818CAD0004B8A5 /* ContactDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsVC.swift; sourceTree = "<group>"; };
+		15938AF3298194360004B8A5 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		15938AF62981945A0004B8A5 /* ContactManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactManager.swift; sourceTree = "<group>"; };
+		15938AF929819D1B0004B8A5 /* CountryCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCode.swift; sourceTree = "<group>"; };
+		15938AFC2981AB300004B8A5 /* CountryCodeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCodeVC.swift; sourceTree = "<group>"; };
+		15938AFE2981AD8C0004B8A5 /* CountryCodeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCodeTableViewCell.swift; sourceTree = "<group>"; };
 		15BD372329803F9300D0C08C /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		15BD37252980426E00D0C08C /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
-		15BD37282980430E00D0C08C /* AddContactVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactVC.swift; sourceTree = "<group>"; };
+		15BD37282980430E00D0C08C /* AddEditContactVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditContactVC.swift; sourceTree = "<group>"; };
 		15BD372B29804A9C00D0C08C /* Viewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viewcontroller.swift; sourceTree = "<group>"; };
 		15BD372E29804AFA00D0C08C /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		15BD373229804EDA00D0C08C /* CircleCropViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleCropViewController.swift; sourceTree = "<group>"; };
@@ -130,6 +142,8 @@
 		15764401297EF4FE006C5268 /* ClassesAndModels */ = {
 			isa = PBXGroup;
 			children = (
+				15938AF5298194560004B8A5 /* ContactManager */,
+				15938AF22981942E0004B8A5 /* CoreDataManager */,
 				15BD373029804EB900D0C08C /* Libraries */,
 				15BD372D29804AF200D0C08C /* Constant */,
 				15BD372A29804A6D00D0C08C /* Extensions */,
@@ -143,6 +157,8 @@
 			children = (
 				1576440B297EFA08006C5268 /* ContactList */,
 				15BD3727298042F700D0C08C /* AddContact */,
+				15938AEF29818C960004B8A5 /* ContactDetails */,
+				15938AFB2981AB1F0004B8A5 /* CountryCode */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -202,10 +218,44 @@
 			path = ContactList;
 			sourceTree = "<group>";
 		};
+		15938AEF29818C960004B8A5 /* ContactDetails */ = {
+			isa = PBXGroup;
+			children = (
+				15938AF029818CAD0004B8A5 /* ContactDetailsVC.swift */,
+			);
+			path = ContactDetails;
+			sourceTree = "<group>";
+		};
+		15938AF22981942E0004B8A5 /* CoreDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				15938AF3298194360004B8A5 /* CoreDataManager.swift */,
+			);
+			path = CoreDataManager;
+			sourceTree = "<group>";
+		};
+		15938AF5298194560004B8A5 /* ContactManager */ = {
+			isa = PBXGroup;
+			children = (
+				15938AF62981945A0004B8A5 /* ContactManager.swift */,
+				15938AF929819D1B0004B8A5 /* CountryCode.swift */,
+			);
+			path = ContactManager;
+			sourceTree = "<group>";
+		};
+		15938AFB2981AB1F0004B8A5 /* CountryCode */ = {
+			isa = PBXGroup;
+			children = (
+				15938AFC2981AB300004B8A5 /* CountryCodeVC.swift */,
+				15938AFE2981AD8C0004B8A5 /* CountryCodeTableViewCell.swift */,
+			);
+			path = CountryCode;
+			sourceTree = "<group>";
+		};
 		15BD3727298042F700D0C08C /* AddContact */ = {
 			isa = PBXGroup;
 			children = (
-				15BD37282980430E00D0C08C /* AddContactVC.swift */,
+				15BD37282980430E00D0C08C /* AddEditContactVC.swift */,
 			);
 			path = AddContact;
 			sourceTree = "<group>";
@@ -343,21 +393,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15938AFD2981AB300004B8A5 /* CountryCodeVC.swift in Sources */,
 				15BD372429803F9300D0C08C /* CustomView.swift in Sources */,
 				15BD373729804F3200D0C08C /* UIImage+Extension.swift in Sources */,
 				15BD37262980426E00D0C08C /* CustomButton.swift in Sources */,
+				15938AFA29819D1B0004B8A5 /* CountryCode.swift in Sources */,
 				15BD373329804EDA00D0C08C /* CircleCropViewController.swift in Sources */,
+				15938AF129818CAD0004B8A5 /* ContactDetailsVC.swift in Sources */,
 				15BD373B298050BC00D0C08C /* CustomTextField.swift in Sources */,
+				15938AF4298194360004B8A5 /* CoreDataManager.swift in Sources */,
 				15BD372C29804A9C00D0C08C /* Viewcontroller.swift in Sources */,
+				15938AF72981945A0004B8A5 /* ContactManager.swift in Sources */,
 				157643EA297EF478006C5268 /* AppDelegate.swift in Sources */,
 				157643F4297EF478006C5268 /* ContactListAppiOS.xcdatamodeld in Sources */,
 				157643EC297EF478006C5268 /* SceneDelegate.swift in Sources */,
 				15BD373529804EFE00D0C08C /* CircleCropScrollView.swift in Sources */,
 				1576440D297EFA1C006C5268 /* ContactListVC.swift in Sources */,
 				1576440A297EF8F4006C5268 /* CustomImageView.swift in Sources */,
+				15938AFF2981AD8C0004B8A5 /* CountryCodeTableViewCell.swift in Sources */,
 				15BD372F29804AFA00D0C08C /* Constant.swift in Sources */,
 				1576440F297EFB6C006C5268 /* ContactListTableViewCell.swift in Sources */,
-				15BD37292980430E00D0C08C /* AddContactVC.swift in Sources */,
+				15BD37292980430E00D0C08C /* AddEditContactVC.swift in Sources */,
 				15BD373929804F4A00D0C08C /* CircleCropCutterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

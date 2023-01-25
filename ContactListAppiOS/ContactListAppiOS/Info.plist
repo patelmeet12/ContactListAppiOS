@@ -6,6 +6,8 @@
 	<array>
 		<string>Vidaloka-Regular.ttf</string>
 	</array>
+	<key>NSContactsUsageDescription</key>
+	<string>Allow to share post to on your favourite contact.</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

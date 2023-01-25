@@ -29,7 +29,15 @@ class ContactListTableViewCell: UITableViewCell {
     //MARK:  Buttons Clicked Actions
     
     //MARK:  Functions
-    func configureCell(con: String) {
+    func configureCell(con: Contact) {
         
+        if let img = con.image {
+            self.imgContact.image = img
+        } else {
+            self.imgContact.image = UIImage(named: "ic_profile")
+        }
+        
+        self.lblName.text = con.firstName + " " + con.lastName
+        self.lblNumber.text = con.countryCode + " " + con.telephone
     }
 }
